@@ -1,0 +1,51 @@
+.navigation {
+  margin-bottom: 32px;
+  background: linear-gradient(90deg, #941e94, #e52e6b);
+  overflow: hidden;
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 941px;
+    max-width: 1090px;
+    margin: 0 auto;
+
+    div {
+      display: flex;
+      align-items: center;
+      padding-right: 14px;
+      margin-right: 2px;
+      color: white;
+      border-right: 1px solid white;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+    }
+
+    ul {
+      flex: 1 1;
+      display: flex;
+      justify-content: space-around;
+      color: white;
+      padding-left: 0;
+      margin: 0;
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      li {
+        cursor: pointer;
+        padding: 16px 5px;
+      }
+
+      li:hover {
+        background-color: #860886;
+      }
+    }
+  }
+}

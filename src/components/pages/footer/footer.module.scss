@@ -1,0 +1,40 @@
+.footer {
+  background-color: #FAFAFA;
+  border-top: 1px solid #e6e7eb;
+
+  .inner {
+    min-width: 941px;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 25px 0;
+
+    .contactsBlock {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      div {
+        display: flex;
+        align-items: center;
+      }
+
+      .icons {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+    }
+
+    .socialMediaBlock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25px;
+
+      a {
+        color: inherit;
+        margin-right: 5px;
+      }
+    }
+  }
+}

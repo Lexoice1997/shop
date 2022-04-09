@@ -1,0 +1,71 @@
+.swiper {
+  width: 1094px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sliderImage {
+  height: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.firstImageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/1.png");
+}
+
+.secondImageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/2.png");
+}
+
+.thirdImageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/3.png");
+}
+
+.fourthImageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/4.png");
+}
+
+.fifthmageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/5.jpeg");
+}
+
+.sixthImageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/6.jpeg");
+}
+
+.seventhImageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/7.jpeg");
+}
+
+.eighthImageSlider {
+  background-image: url("../../../../assets/images/sliderProduct/8.jpeg");
+}

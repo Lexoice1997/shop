@@ -1,0 +1,139 @@
+.productPage {
+  min-width: 941px;
+  max-width: 1090px;
+  margin: 0 auto;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .sort {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    .sortBold {
+      font-weight: 700;
+      margin-right: 10px;
+    }
+
+    .sortByPopularity {
+      margin-right: 10px;
+      cursor: pointer;
+      color: cadetblue;
+    }
+
+    .sortByPrice {
+      cursor: pointer;
+      color: #ea1653;
+    }
+  }
+
+  .inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+
+    .product {
+      height: 420px;
+      border: 1px solid #a5a1a6;
+      border-radius: 15px;
+      transition: all 0.2s ease-in-out;
+
+      .productInner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        position: relative;
+
+        .favoriteProduct {
+          position: absolute;
+          right: 20px;
+          top: 20px;
+          cursor: pointer;
+
+          svg {
+            width: 22px;
+            height: 22px;
+          }
+        }
+
+        .img {
+          margin-top: 10px;
+          margin-bottom: 10px;
+
+          img {
+            height: 200px;
+            width: 120px;
+            background-size: cover;
+          }
+        }
+
+        .name {
+          text-align: center;
+          font-size: 14px;
+          margin-bottom: 10px;
+          color: blue;
+        }
+
+        .amount {
+          display: flex;
+          align-items: center;
+          font-size: 15px;
+          margin-bottom: 10px;
+
+          span {
+            color: #a5a1a6;
+          }
+
+          svg {
+            margin-right: 5px;
+            width: 15px;
+            height: 15px;
+          }
+        }
+
+        .price {
+          font-size: 17px;
+          font-weight: 600;
+          margin-bottom: 7px;
+        }
+
+        .btn {
+          text-transform: inherit;
+          border: 1px solid #ea1653;
+          background-color: #ea1653;
+          color: white;
+          padding: 3px 20px;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .product:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.amountGreen {
+  color: green;
+}
+
+.amountYellow {
+  color: yellow;
+}
+
+.amountRed {
+  color: red;
+}

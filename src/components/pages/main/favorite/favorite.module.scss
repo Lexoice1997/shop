@@ -1,0 +1,56 @@
+.favorite {
+  min-width: 941px;
+  max-width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 30px;
+
+  .img {
+    margin-right: 30px;
+    img {
+      width: 80px;
+      height: 120px;
+    }
+  }
+
+  .content {
+    .name {
+      font-size: 14px;
+      color: blue;
+    }
+
+    .rating {
+      margin: 5px 0;
+      svg {
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    .price {
+      font-weight: 600;
+      margin: 5px 0;
+    }
+
+    button {
+      display: block;
+    }
+
+    .btnCart {
+      width: 110px;
+      color: white;
+      background-color: red;
+      border: 1px solid red;
+      padding: 8px 13px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .favoriteBtn {
+      color: blue;
+      font-size: 12px;
+    }
+  }
+}
