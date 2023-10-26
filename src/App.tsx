@@ -1,6 +1,6 @@
-import React from 'react';
-import './style.module.scss';
+import React from "react";
 import Pages from "./components/pages/pages";
+import "./style.module.scss";
 
 function App() {
   return (

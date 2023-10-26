@@ -152,10 +152,10 @@ const ProductPage = () => {
       <Stack spacing={2} className={styles.pagination}>
         <Pagination
           count={Math.ceil(allProduct.length / 8)}
-          page={currentPage}
-          onChange={(e: any, page: number) => {
-            setCurrentPage(page);
-          }}
+          // page={currentPage}
+          // onChange={(e: any, page: number) => {
+          //   setCurrentPage(page);
+          // }}
         />
       </Stack>
     </div>
